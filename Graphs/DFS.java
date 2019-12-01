@@ -41,7 +41,7 @@ class Ideone
 	   	 int r = s.pop();
 	   	 if(r == y)
 	   	 {ans = 1; break;}
-	   	 LinkedList<map> temp = map.get(r);
+	   	 LinkedList<Integer> temp = map.get(r);
 	   	 while(!temp.isEmpty())
 	   	 {
 	   	 	int p = temp.poll();
