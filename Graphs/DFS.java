@@ -42,7 +42,7 @@ class Ideone
 	   	 if(r == y)
 	   	 {ans = 1; break;}
 	   	 LinkedList<Integer> temp = map.get(r);
-	   	 while(!temp.isEmpty())
+	   	 while(temp!=null && !temp.isEmpty())
 	   	 {
 	   	 	int p = temp.poll();
 	   	 	s.push(p);
