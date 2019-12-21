@@ -13,7 +13,7 @@ class Traversal
        // add your code here
        
           
-               Queue<Integer> q = new LinkedList<Integer>() ;
+               Queue<Integer> q = new LinkedList<Integer>();
                vis[s] = true;
                q.add(s);
                while(q.size() != 0)
